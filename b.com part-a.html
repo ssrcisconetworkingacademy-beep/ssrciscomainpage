@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>All Results 2026</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #eef2f7;
+  text-align: center;
+  padding: 40px;
+}
+.box {
+  background: white;
+  padding: 25px;
+  width: 420px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #ccc;
+}
+input, button {
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+}
+.pass { color: green; }
+.fail { color: red; }
+</style>
+</head>
+
+<body>
+
+<div class="box">
+  <h2>SSR CISCO NETWORKING ACADEMY LONG TERM INTERNSHIP PART-A RESULTS </h2>
+
+  <input type="text" id="ht" placeholder="Enter Hall Ticket Number">
+  <button onclick="check()">Check Result</button>
+
+  <div id="out"></div>
+</div>
+
+<script>
+
+const data = [
+
+/* ===== B.COM ===== */
+{ht:"Y237258006",m:36,c:"B.COM"},
+{ht:"Y237258014",m:31,c:"B.COM"},
+{ht:"Y237258017",m:26,c:"B.COM"},
+{ht:"Y237258018",m:27,c:"B.COM"},
+{ht:"Y237258022",m:34,c:"B.COM"},
+{ht:"Y237258024",m:12,c:"B.COM"},
+{ht:"Y237258027",m:36,c:"B.COM"},
+{ht:"Y237258030",m:18,c:"B.COM"},
+{ht:"Y237258032",m:36,c:"B.COM"},
+{ht:"Y237258034",m:20,c:"B.COM"},
+{ht:"Y237258035",m:19,c:"B.COM"},
+{ht:"Y237258037",m:19,c:"B.COM"},
+{ht:"Y237258039",m:27,c:"B.COM"},
+{ht:"Y237258042",m:17,c:"B.COM"},
+{ht:"Y237258044",m:15,c:"B.COM"},
+{ht:"Y237258046",m:17,c:"B.COM"},
+{ht:"Y237258048",m:23,c:"B.COM"},
+{ht:"Y237258051",m:15,c:"B.COM"},
+{ht:"Y237258054",m:26,c:"B.COM"},
+{ht:"Y237258058",m:18,c:"B.COM"},
+
+/* ===== BSC CS ===== */
+{ht:"Y233258014",m:13,c:"BSC CS"},
+{ht:"Y233258034",m:18,c:"BSC CS"},
+{ht:"Y233258003",m:22,c:"BSC CS"},
+{ht:"Y233258044",m:27,c:"BSC CS"},
+{ht:"Y233258035",m:34,c:"BSC CS"},
+{ht:"Y233258022",m:18,c:"BSC CS"},
+{ht:"Y233258042",m:25,c:"BSC CS"},
+{ht:"Y233258036",m:22,c:"BSC CS"},
+{ht:"Y233258029",m:47,c:"BSC CS"},
+{ht:"Y233258001",m:18,c:"BSC CS"},
+{ht:"Y233258030",m:36,c:"BSC CS"},
+{ht:"Y233258004",m:44,c:"BSC CS"},
+{ht:"Y233258026",m:30,c:"BSC CS"},
+{ht:"Y233258009",m:35,c:"BSC CS"},
+{ht:"Y233258015",m:37,c:"BSC CS"},
+{ht:"Y233258033",m:32,c:"BSC CS"},
+{ht:"Y233258027",m:24,c:"BSC CS"},
+{ht:"Y233258002",m:24,c:"BSC CS"},
+{ht:"Y233258023",m:26,c:"BSC CS"},
+{ht:"Y233258041",m:31,c:"BSC CS"},
+{ht:"Y233258032",m:42,c:"BSC CS"},
+{ht:"Y233258006",m:45,c:"BSC CS"},
+{ht:"Y233258008",m:36,c:"BSC CS"},
+{ht:"Y233258038",m:44,c:"BSC CS"},
+{ht:"Y233258031",m:35,c:"BSC CS"},
+{ht:"Y233258037",m:50,c:"BSC CS"},
+{ht:"Y233258012",m:46,c:"BSC CS"},
+{ht:"Y233258018",m:30,c:"BSC CS"},
+{ht:"Y233258010",m:28,c:"BSC CS"},
+{ht:"Y233258019",m:30,c:"BSC CS"},
+{ht:"Y233258013",m:33,c:"BSC CS"},
+{ht:"Y233258011",m:44,c:"BSC CS"},
+{ht:"Y233258043",m:37,c:"BSC CS"},
+{ht:"Y233258021",m:36,c:"BSC CS"},
+{ht:"Y233258040",m:42,c:"BSC CS"},
+
+/* ===== ELECTRONICS + ALL ===== */
+{ht:"Y233258100",m:21,c:"BSC ELECTRONICS"},
+{ht:"Y233258064",m:17,c:"BSC ELECTRONICS"},
+{ht:"Y233258088",m:21,c:"BSC ELECTRONICS"},
+{ht:"Y233258070",m:34,c:"BSC ELECTRONICS"},
+{ht:"Y233258102",m:50,c:"BSC ELECTRONICS"},
+{ht:"Y233258096",m:15,c:"BSC ELECTRONICS"},
+{ht:"Y233258089",m:13,c:"BSC ELECTRONICS"},
+{ht:"Y233258103",m:25,c:"BSC ELECTRONICS"},
+{ht:"Y233258072",m:23,c:"BSC ELECTRONICS"},
+{ht:"Y233258079",m:40,c:"BSC ELECTRONICS"},
+{ht:"Y233258073",m:22,c:"BSC ELECTRONICS"},
+{ht:"Y233258097",m:34,c:"BSC ELECTRONICS"},
+{ht:"Y233258095",m:47,c:"BSC ELECTRONICS"},
+{ht:"Y233258092",m:47,c:"BSC ELECTRONICS"},
+{ht:"Y233258075",m:10,c:"BSC ELECTRONICS"},
+{ht:"Y233258071",m:43,c:"BSC ELECTRONICS"},
+{ht:"Y233258081",m:21,c:"BSC ELECTRONICS"},
+{ht:"Y233258098",m:45,c:"BSC ELECTRONICS"},
+{ht:"Y233258074",m:24,c:"BSC ELECTRONICS"},
+{ht:"Y233258083",m:25,c:"BSC ELECTRONICS"},
+{ht:"Y233258091",m:25,c:"BSC ELECTRONICS"},
+{ht:"Y233258080",m:23,c:"BSC ELECTRONICS"},
+
+/* other groups */
+{ht:"Y233258150",m:44,c:"BSC STATISTICS"},
+{ht:"Y233258078",m:17,c:"BSC ELECTRONICS"},
+{ht:"Y23EE58094",m:44,c:"BSC ELECTRONICS"},
+{ht:"Y233258127",m:40,c:"BSC PHYSICS"},
+{ht:"Y233258120",m:43,c:"BSC IOT"},
+{ht:"Y233258055",m:27,c:"BSC DA"},
+{ht:"Y233258122",m:25,c:"BSC IOT"},
+{ht:"Y233258139",m:24,c:"BSC PHYSICS"},
+{ht:"Y233258131",m:22,c:"BSC PHYSICS"},
+{ht:"Y233258121",m:43,c:"BSC IOT"},
+{ht:"Y233258118",m:42,c:"BSC IOT"},
+{ht:"Y2333258046",m:49,c:"BSC DA"},
+{ht:"Y233258060",m:33,c:"BSC DA"},
+{ht:"Y233258148",m:17,c:"BSC STATISTICS"},
+{ht:"Y233258124",m:48,c:"BSC IOT"},
+{ht:"Y233258105",m:33,c:"BSC IOT"},
+{ht:"Y233258104",m:26,c:"BSC IOT"},
+{ht:"Y233258153",m:35,c:"BSC STATISTICS"},
+{ht:"Y233258137",m:25,c:"BSC PHYSICS"}
+
+];
+
+function check() {
+  let ht = document.getElementById("ht").value.trim().toUpperCase();
+  let out = document.getElementById("out");
+
+  let s = data.find(x => x.ht === ht);
+
+  if (s) {
+    let status = s.m >= 18 ? "PASS" : "FAIL";
+    let cls = s.m >= 18 ? "pass" : "fail";
+
+    out.innerHTML = `
+      Course: ${s.c}<br>
+      Marks: ${s.m} / 50<br>
+      <span class="${cls}">${status}</span>
+    `;
+  } else {
+    out.innerHTML =
+      "<span class='fail'>Your not submitted form successfully, contact instructor</span>";
+  }
+}
+
+</script>
+
+</body>
+</html>
