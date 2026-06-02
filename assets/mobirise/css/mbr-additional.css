@@ -1328,9 +1328,9 @@ a {
   }
 }
 .cid-v47u2HL9As {
-  padding-top: 5rem;
-  padding-bottom: 2rem;
-  background-color: #000000;
+  padding-top: 10rem;
+  padding-bottom: 0rem;
+  background-image: url("../../../assets/images/cisco-announces-swathe-of-new-ai-assistant-features-1-scaled.jpg-2000x1059.jpg");
 }
 .cid-v47u2HL9As .mbr-fallback-image.disabled {
   display: none;
@@ -1348,9 +1348,6 @@ a {
   .cid-v47u2HL9As .image-wrapper {
     margin-bottom: 1rem;
   }
-}
-.cid-v47u2HL9As .row {
-  flex-direction: row-reverse;
 }
 .cid-v47u2HL9As .row {
   align-items: center;
@@ -1372,15 +1369,15 @@ a {
 .cid-v47u2HL9As .mbr-section-btn {
   color: #ffffff;
 }
-.cid-v47zkt574v {
-  padding-top: 2rem;
+.cid-vlmJ9ardlj {
+  padding-top: 0rem;
   padding-bottom: 2rem;
-  background-color: #edefeb;
+  background-image: url("../../../assets/images/images.jpg-297x170.jpg");
 }
-.cid-v47zkt574v .mbr-fallback-image.disabled {
+.cid-vlmJ9ardlj .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-v47zkt574v .mbr-fallback-image {
+.cid-vlmJ9ardlj .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1389,295 +1386,99 @@ a {
   position: absolute;
   top: 0;
 }
-@media (max-width: 991px) {
-  .cid-v47zkt574v .image-wrapper {
-    margin-bottom: 1rem;
+@media (max-width: 767px) {
+  .cid-vlmJ9ardlj .card-content-text {
+    padding: 0 1.5rem 1.5rem 1.5rem;
   }
 }
-.cid-v47zkt574v .row {
-  align-items: center;
-}
-@media (max-width: 991px) {
-  .cid-v47zkt574v .image-wrapper {
-    padding: 1rem;
+@media (min-width: 768px) {
+  .cid-vlmJ9ardlj .card-content-text {
+    padding: 0 2.25rem 2.25rem 2.25rem;
   }
 }
 @media (min-width: 992px) {
-  .cid-v47zkt574v .text-wrapper {
-    padding: 0 2rem;
+  .cid-vlmJ9ardlj .card-content-text {
+    padding: 1rem 4rem 4rem 4rem;
   }
 }
-.cid-v47zkt574v .mbr-section-title {
+.cid-vlmJ9ardlj .card-wrapper {
+  background: #f7f7f7;
+}
+.cid-vlmJ9ardlj .mbr-text,
+.cid-vlmJ9ardlj .mbr-section-btn {
+  color: #000000;
+  text-align: left;
+}
+.cid-vlmJ9ardlj .card-title,
+.cid-vlmJ9ardlj .card-box {
+  text-align: left;
   color: #000000;
 }
-.cid-v47zkt574v .mbr-text,
-.cid-v47zkt574v .mbr-section-btn {
+.cid-vlmJ9ardlj .image-wrapper img {
+  width: 100%;
+}
+.cid-vlmKm80CIs {
+  padding-top: 7rem;
+  padding-bottom: 10rem;
+  background-image: url("../../../assets/images/cisco-announces-swathe-of-new-ai-assistant-features-1-scaled.jpg-2000x1059.jpg");
+}
+.cid-vlmKm80CIs .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vlmKm80CIs .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 767px) {
+  .cid-vlmKm80CIs .image-wrapper {
+    flex-direction: column;
+  }
+  .cid-vlmKm80CIs .image-wrapper img {
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
+.cid-vlmKm80CIs .card-box {
+  max-width: 750px;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: 0;
+}
+.cid-vlmKm80CIs img,
+.cid-vlmKm80CIs .item-img {
+  width: 100%;
+}
+.cid-vlmKm80CIs .card-wrapper {
+  background: #ffffff;
+}
+.cid-vlmKm80CIs .mbr-text,
+.cid-vlmKm80CIs .mbr-section-btn {
+  color: #000000;
+}
+.cid-vlmKm80CIs .card-title,
+.cid-vlmKm80CIs .card-box {
   color: #232323;
 }
-.cid-v47DgKxnNS {
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  background-color: #fffefe;
-}
-.cid-v47DgKxnNS .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-v47DgKxnNS .item-wrapper {
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
 @media (max-width: 767px) {
-  .cid-v47DgKxnNS .item-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-v47DgKxnNS .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-v47DgKxnNS .mbr-iconfont {
-  display: inline-flex;
-  font-size: 2rem;
-  color: #393193;
-  width: 80px;
-  justify-content: center;
-  align-items: center;
-  background: #9c98cf;
-  height: 80px;
-  border-radius: 50%;
-}
-.cid-v47DgKxnNS .card-title,
-.cid-v47DgKxnNS .iconfont-wrapper,
-.cid-v47DgKxnNS .card-text {
-  color: #000000;
-  text-align: center;
-}
-.cid-v47DgKxnNS .content-head {
-  max-width: 800px;
-}
-.cid-v47DgKxnNS .mbr-section-title {
-  color: #000000;
-  text-align: left;
-}
-.cid-v47DgKxnNS .mbr-section-btn {
-  text-align: center;
-}
-.cid-v47DgKxnNS .mbr-section-subtitle {
-  text-align: left;
-}
-.cid-v47GaaNxgc {
-  padding-top: 0rem;
-  padding-bottom: 1rem;
-  background-color: #edefeb;
-}
-.cid-v47GaaNxgc .item-mb {
-  margin-bottom: 2rem;
-}
-@media (max-width: 767px) {
-  .cid-v47GaaNxgc .item-mb {
-    margin-bottom: 1rem;
-  }
-}
-.cid-v47GaaNxgc .item-head {
-  background: #393193;
-  padding: 2.25rem;
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-  .cid-v47GaaNxgc .item-head {
-    padding: 2rem 1.5rem;
-    margin-bottom: 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-v47GaaNxgc .item-head {
-    padding: 2rem 1.5rem;
-    margin-bottom: 2rem;
-  }
-}
-.cid-v47GaaNxgc .item-content {
-  padding: 2.25rem 2.25rem 0;
-  background: #ffffff;
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-  .cid-v47GaaNxgc .item-content {
-    padding: 0rem 1.5rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-v47GaaNxgc .item-content {
-    padding: 0rem 1.5rem;
-  }
-}
-.cid-v47GaaNxgc .item-wrapper {
-  border-radius: 2rem;
-  overflow: hidden;
-  margin-bottom: 2rem;
-  background: #ffffff;
-  padding: 0rem;
-  height: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-}
-@media (max-width: 767px) {
-  .cid-v47GaaNxgc .item-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-  .cid-v47GaaNxgc .item-wrapper .item-footer {
-    padding: 0 1.5rem 3rem;
-  }
-}
-@media (min-width: 1201px) {
-  .cid-v47GaaNxgc .item-wrapper .item-footer {
-    padding: 0 2rem 3rem;
-  }
-}
-.cid-v47GaaNxgc .btn {
-  width: -webkit-fill-available;
-}
-.cid-v47GaaNxgc .item:focus,
-.cid-v47GaaNxgc span:focus {
-  outline: none;
-}
-.cid-v47GaaNxgc .mbr-section-btn {
-  margin-top: auto !important;
-  padding: 2rem 2rem 0;
-}
-@media (max-width: 991px) {
-  .cid-v47GaaNxgc .mbr-section-btn {
-    padding: 0rem 2.25rem 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-v47GaaNxgc .mbr-section-btn {
-    padding: 0rem 1.5rem;
-    margin-bottom: 2rem;
-  }
-}
-.cid-v47GaaNxgc .mbr-section-title {
-  color: #0c2c68;
-  text-align: left;
-}
-.cid-v47GaaNxgc .mbr-section-subtitle {
-  color: #0c2c68;
-  text-align: left;
-}
-.cid-v47GaaNxgc .mbr-text,
-.cid-v47GaaNxgc .mbr-section-btn {
-  text-align: left;
-}
-.cid-v47GaaNxgc .item-title {
-  text-align: left;
-  color: #ffffff;
-}
-.cid-v47GaaNxgc .item-subtitle {
-  text-align: left;
-  color: #ffffff;
-}
-.cid-v47GaaNxgc .content-head {
-  max-width: 800px;
-}
-.cid-v47Loowyld {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: #ffffff;
-}
-.cid-v47Loowyld .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-v47Loowyld .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-v47Loowyld .row {
-  flex-direction: row-reverse;
-}
-.cid-v47Loowyld .mbr-description {
-  text-align: left;
-}
-.cid-v5L05lT12e {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #a6a99c;
-}
-.cid-v5L05lT12e .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-v5L05lT12e .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-v5L05lT12e .item-mb {
-  margin-bottom: 2rem;
-}
-@media (max-width: 767px) {
-  .cid-v5L05lT12e .item-mb {
-    margin-bottom: 1rem;
-  }
-}
-.cid-v5L05lT12e .item-wrapper {
-  background: #ffffff;
-  padding: 2.25rem;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-  .cid-v5L05lT12e .item-wrapper {
-    padding: 2rem 1.5rem;
-    margin-bottom: 0rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-v5L05lT12e .item-wrapper {
+  .cid-vlmKm80CIs .card-content-text {
     padding: 2rem 1.5rem;
     margin-bottom: 1rem;
   }
 }
-.cid-v5L05lT12e .mbr-iconfont {
-  display: inline-flex;
-  font-size: 3rem;
-  color: #2e481a;
-  margin-bottom: 1rem;
-  width: 80px;
-  justify-content: center;
-  align-items: center;
-  background: #a6a99c;
-  height: 80px;
-  border-radius: 50%;
+@media (min-width: 768px) and (max-width: 991px) {
+  .cid-vlmKm80CIs .card-content-text {
+    padding: 2.25rem;
+  }
 }
-.cid-v5L05lT12e .mbr-section-title {
-  color: #0c2c68;
-}
-.cid-v5L05lT12e .mbr-section-subtitle {
-  color: #ffffff;
-}
-.cid-v5L05lT12e .card-box {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-.cid-v5L05lT12e .card-box .item-footer {
-  margin-top: auto;
-}
-.cid-v5L05lT12e .content-head {
-  max-width: 800px;
+@media (min-width: 992px) {
+  .cid-vlmKm80CIs .card-content-text {
+    padding: 4rem;
+  }
 }
 .cid-v4ZZmJ45Rq {
   padding-top: 2rem;
